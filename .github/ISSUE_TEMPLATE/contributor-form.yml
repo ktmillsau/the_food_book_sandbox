@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: [bug, triage]
+name: Contributor Form
+description: Fill in the contributor form.
+title: "[Contributor Form]: "
+labels: [contributors]
 assignees:
-  - octocat
+  - sarasrking
 body:
   - type: markdown
     attributes:
