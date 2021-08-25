@@ -13,7 +13,6 @@ body:
     id: name
     attributes:
       label: Author name (including pronouns if desired)
-      placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
