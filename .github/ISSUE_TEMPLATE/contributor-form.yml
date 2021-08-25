@@ -1,6 +1,6 @@
 name: Contributor form
 description: Please fill in the contributor form when submitting your content.
-title: "[Author name (including pronouns if desired)]: "
+title: "Contributor form: "
 labels: [contributors]
 assignees:
   - sarasrking
