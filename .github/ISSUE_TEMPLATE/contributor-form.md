@@ -1,12 +1,3 @@
----
-name: Contributor form
-about: Please fill in this form when submitting a new chapter.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
