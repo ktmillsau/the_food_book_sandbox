@@ -45,13 +45,13 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: level
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Content level
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Novice
+        - Intermediate
+        - Advanced
     validations:
       required: true
   - type: dropdown
