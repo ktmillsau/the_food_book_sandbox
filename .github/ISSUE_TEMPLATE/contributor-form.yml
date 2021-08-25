@@ -1,6 +1,6 @@
 name: Contributor Form
 description: File a bug report
-title: "[Bug]: "
+title: "[Contributor Form]:"
 labels: [bug, triage]
 assignees:
   - octocat
