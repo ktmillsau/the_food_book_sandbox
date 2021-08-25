@@ -1,9 +1,3 @@
-name: Bug Report
-description: File a bug report
-title: "[Contributor Form]: "
-labels: [bug, triage]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
