@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: name
     attributes:
       label: Author name (including pronouns if desired)
       description: How can we get in touch with you if we need more info?
@@ -18,7 +18,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: country
     attributes:
       label: Traditional country
       description: e.g, Whadjuk boodja
@@ -26,14 +26,12 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
+    id: contact
     attributes:
       label: Contact link 
       description: e.g. email, Twitter, LinkedIn. etc
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      placeholder: ex. email@example.com
     validations:
       required: true
   - type: dropdown
@@ -46,6 +44,15 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+    - type: dropdown
+    id: content
+    attributes:
+      label: Content level (novice, intermediate or advanced)
+      multiple: true
+      options:
+        - Novice
+        - Intermediate
+        - Advanced
   - type: textarea
     id: logs
     attributes:
