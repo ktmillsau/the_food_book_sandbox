@@ -35,15 +35,6 @@ body:
       label: Content
     validations:
       required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
   - type: dropdown
     id: level
     attributes:
@@ -61,16 +52,13 @@ body:
       description: Please provide 2-3 sentences
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
+    id: tags
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: Tags
+      description: Please provide a couple of keywords to describe your content.
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
