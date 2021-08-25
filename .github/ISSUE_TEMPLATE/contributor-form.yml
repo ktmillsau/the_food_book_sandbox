@@ -29,6 +29,12 @@ body:
       description: e.g, email, Twitter, LinkedIn, etc
     validations:
       required: true
+  - type: input
+    id: content
+    attributes:
+      label: Content
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
