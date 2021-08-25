@@ -54,6 +54,13 @@ body:
         - Advanced
     validations:
       required: true
+  - type: textarea
+    id: contentsummary
+    attributes:
+      label: Content summary
+      description: Please provide 2-3 sentences
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
