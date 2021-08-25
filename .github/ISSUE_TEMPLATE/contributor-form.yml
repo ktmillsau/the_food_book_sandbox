@@ -29,8 +29,8 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Contact link 
+      description: e.g. email, Twitter, LinkedIn. etc
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
