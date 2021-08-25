@@ -10,10 +10,9 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: name
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      label: Author name (including pronouns if desired)
       placeholder: ex. email@example.com
     validations:
       required: false
