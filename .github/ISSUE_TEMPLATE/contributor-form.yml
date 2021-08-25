@@ -33,7 +33,7 @@ body:
     id: content
     attributes:
       label: Content
-      placeholder: We would love it if you try to submit via GitHub if you feel comfortable. Just follow the steps here. Otherwise, please provide your content via this form and we will upload it on your behalf.
+      placeholder: We would love it if you try to submit via GitHub if you feel comfortable. This project is all about learning new things! Just follow the steps here. Otherwise, please provide your content via this form and we will upload it on your behalf.
     validations:
       required: false
   - type: dropdown
