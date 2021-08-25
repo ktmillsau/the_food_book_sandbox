@@ -44,7 +44,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-    - type: dropdown
+  - type: dropdown
     id: content
     attributes:
       label: Content level (novice, intermediate or advanced)
