@@ -15,7 +15,7 @@ body:
       label: Author name (including pronouns if desired)
     validations:
       required: true
-        - type: input
+  - type: input
     id: country
     attributes:
       label: Traditional country
